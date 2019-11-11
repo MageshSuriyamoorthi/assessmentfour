@@ -102,6 +102,7 @@ public class UtilityFiles {
 	public WebElement sendkey(WebDriver driver, String locator, Keys keys ) {
 		log.info("Entering text into text box");
 		WebElement value = findelement(driver, locator);
+		value.clear();
 		value.sendKeys(keys);
 		log.info(keys + " is entered");
 		return value;

@@ -47,13 +47,13 @@ public class HotSauce extends TestSuiteBase {
 	
 		utils.click(driver, propertyreader.getLocatorValue("loc.cartlink.add"));
 		
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.cartlink.update"), Keys.BACK_SPACE);
+		utils.sendkey(driver, propertyreader.getLocatorValue("loc.cartlink.update"), Keys.DELETE);
 		
 		value=assertandvalidate.getdataval("HotSauce", "CartValidation", 8);
 		
-		wait.ThreadWait(4000);
-		
 		utils.sendkeys(driver, propertyreader.getLocatorValue("loc.cartlink.add"), value);
+		
+		wait.ThreadWait(4000);
 		
 		utils.click(driver, propertyreader.getLocatorValue("loc.cartlink.update"));
 		

@@ -28,16 +28,6 @@ public class TutorialsNinjaHomePageBase {
 
 	}
 
-	public void baskspace(WebDriver driver) {
-		wait.ThreadWait(4000);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
-	}
-
 	public void add_cart(WebDriver driver, String sendkeys) {
 		utils.click(driver, propertyreader.getLocatorValue("loc.addtocart.textbox"));
 		utils.sendkey(driver, propertyreader.getLocatorValue("loc.addtocart.textbox"), Keys.BACK_SPACE);
@@ -78,25 +68,32 @@ public class TutorialsNinjaHomePageBase {
 	public void cost_validation(WebDriver driver, String columnname) {
 
 		if (columnname.equals("MacBookValidation")) {
-			utils.click(driver, propertyreader.getLocatorValue("loc.addtocart.button"));
-			utils.click(driver, propertyreader.getLocatorValue("loc.cart.button"));
+
 			wait.ThreadWait(4000);
 
 			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.overall.price"));
+			System.out.println("a1 " + actual);
 			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 3);
+			System.out.println(expected);
 			assertandvalidate.assertequals(actual, expected);
 
 			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.product2.cart"));
-			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 1);
+			System.out.println("a2" + actual);
+			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 2);
+			System.out.println(expected);
 			assertandvalidate.assertequals(actual, expected);
 
 			utils.click(driver, propertyreader.getLocatorValue("loc.product2.click"));
-			wait.ThreadWait(4000);
-			utils.click(driver, propertyreader.getLocatorValue("loc.product2.click"));
+			wait.ThreadWait(3000);
+			utils.click(driver, propertyreader.getLocatorValue("loc.cart.button"));
 
-			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.product2.cart"));
+			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.product1.cart"));
 			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 4);
 			assertandvalidate.assertequals(actual, expected);
+		}
+		else {
+			log.info("No column called as macBook air is present");
+			
 		}
 	}
 

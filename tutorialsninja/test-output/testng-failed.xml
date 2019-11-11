@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.testscripts.HotSauce">
+      <class name="com.atmecs.testscripts.TutorialsNinjaHomePage">
         <methods>
           <include name="open_Url"/>
           <include name="browserSelect"/>
-          <include name="home_page"/>
           <include name="browserQuit"/>
+          <include name="validate_HomePage"/>
+          <include name="search_product"/>
         </methods>
-      </class> <!-- com.atmecs.testscripts.HotSauce -->
+      </class> <!-- com.atmecs.testscripts.TutorialsNinjaHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,8 +1,8 @@
 package com.atmecs.testscripts;
 
+import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.atmecs.tutorialsninja.scriptbase.TutorialsNinjaHomePageBase;
@@ -36,26 +36,32 @@ public class TutorialsNinjaHomePage extends TestSuiteBase {
 	public void search_product() {
 
 		base.search_product(driver, assertandvalidate.getdataval("HomePageData", "SearchList", 1));
-			
+
 		utils.click(driver, propertyreader.getLocatorValue("loc.image.click"));
-		
+
 		base.add_cart(driver, assertandvalidate.getdataval("HomePageData", "Quantity", 1));
-		
+
 		base.product_validation(driver, "IphoneValidation");
-		
+
+		utils.click(driver, propertyreader.getLocatorValue("loc.addtocart.button"));
+
+		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
+
+		base.search_product(driver, assertandvalidate.getdataval("HomePageData", "SearchList", 2));
+
+		utils.click(driver, propertyreader.getLocatorValue("loc.image.click"));
+
+		base.add_cart(driver, assertandvalidate.getdataval("HomePageData", "Quantity", 2));
+
+		base.product_validation(driver, "MacBookValidation");
+
 		utils.click(driver, propertyreader.getLocatorValue("loc.addtocart.button"));
 		
-		base.baskspace(driver);
+		utils.click(driver, propertyreader.getLocatorValue("loc.home.button"));
 		
-		base.search_product(driver, assertandvalidate.getdataval("HomePageData", "SearchList", 2));
-		
-		utils.click(driver, propertyreader.getLocatorValue("loc.image.click"));
-		
-		base.add_cart(driver, assertandvalidate.getdataval("HomePageData", "Quantity", 2));
-		
-		base.product_validation(driver, "MacBookValidation");
-		
+		utils.click(driver, propertyreader.getLocatorValue("loc.cart.button"));
+	
 		base.cost_validation(driver, "MacBookValidation");
-		
+
 	}
 }

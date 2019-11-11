@@ -106,26 +106,6 @@ public class ExcelReader {
 		}
 	}
 
-	public String getData(String filepath, String sheetName, int rowNum, int cellNum) {
-		String data = "";
-
-		try {
-			setPath(filepath);
-			sheet = workBook.getSheet(sheetName);
-			data = sheet.getRow(rowNum).getCell(cellNum).getStringCellValue();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		return data;
-	}
-
-	public FileOutputStream getFileOutput() {
-		return fileOutput;
-	}
-
-	public void setFileOutput(FileOutputStream fileOutput) {
-		this.fileOutput = fileOutput;
-	}
+	
 
 }
