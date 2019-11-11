@@ -1,0 +1,459 @@
+# Created at 2019-11-11T11:34:16.733
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-11-11T11:34:34.089
+Unexpected IOException: 8,1,com.atmecs.testscripts.HotSauce,home_page(com.atmecs.testscripts.HotSauce),null,Unable to find element with css selector == div#content>nav>ul>li:nth-of-type(3)>a>span\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6\000A*** Element info: {Using=css selector\002C value=div#content>nav>ul>li:nth-of-type(3)>a>span},null,Unable to find element with css selector == div#content>nav>ul>li:nth-of-type(3)>a>span\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6\000A*** Element info: {Using=css selector\002C value=div#content>nav>ul>li:nth-of-type(3)>a>span},HotSauce.home_page:38 \00BB NoSuchElement Unable to find element with css selector...,org.openqa.selenium.NoSuchElementException: \000AUnable to find element with css selector == div#content>nav>ul>li:nth-of-type(3)>a>span\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6\000A*** Element info: {Using=css selector\002C value=div#content>nav>ul>li:nth-of-type(3)>a>span}\000A\0009at com.atmecs.testscripts.HotSauce.home_page(HotSauce.java:38)\000A
+
+
+# Created at 2019-11-11T11:34:34.131
+Unexpected IOException: 8,1,com.atmecs.testscripts.HotSauce,browserQuit(com.atmecs.testscripts.HotSauce),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6,null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6,HotSauce>TestSuiteBase.browserQuit:77 \00BB NoSuchWindow Unable to get browser\000ABui...,org.openqa.selenium.NoSuchWindowException: \000AUnable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: 0ada3368-3269-4f40-b251-78df7df90fb6\000A
+
+
+# Created at 2019-11-11T11:34:34.705
+Unexpected IOException with stream: S
+
+# Created at 2019-11-11T11:34:34.706
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.708
+Unexpected IOException with stream: a
+
+# Created at 2019-11-11T11:34:34.709
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.710
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.711
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.712
+Unexpected IOException with stream: d
+
+# Created at 2019-11-11T11:34:34.713
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.714
+Unexpected IOException with stream: I
+
+# Created at 2019-11-11T11:34:34.715
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.716
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.717
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.718
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.719
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.721
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.722
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.723
+Unexpected IOException with stream: E
+
+# Created at 2019-11-11T11:34:34.724
+Unexpected IOException with stream: x
+
+# Created at 2019-11-11T11:34:34.725
+Unexpected IOException with stream: p
+
+# Created at 2019-11-11T11:34:34.726
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.727
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.728
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.729
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.731
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.731
+Unexpected IOException with stream: D
+
+# Created at 2019-11-11T11:34:34.733
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.733
+Unexpected IOException with stream: i
+
+# Created at 2019-11-11T11:34:34.734
+Unexpected IOException with stream: v
+
+# Created at 2019-11-11T11:34:34.735
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.736
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.755
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.757
+Unexpected IOException with stream: s
+
+# Created at 2019-11-11T11:34:34.758
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.759
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.760
+Unexpected IOException with stream: v
+
+# Created at 2019-11-11T11:34:34.761
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.762
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.763
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.764
+Unexpected IOException with stream: (
+
+# Created at 2019-11-11T11:34:34.765
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-11T11:34:34.766
+Unexpected IOException with stream: 2
+
+# Created at 2019-11-11T11:34:34.767
+Unexpected IOException with stream: -
+
+# Created at 2019-11-11T11:34:34.768
+Unexpected IOException with stream: b
+
+# Created at 2019-11-11T11:34:34.769
+Unexpected IOException with stream: i
+
+# Created at 2019-11-11T11:34:34.770
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.771
+Unexpected IOException with stream: )
+
+# Created at 2019-11-11T11:34:34.772
+Unexpected IOException with stream: 
+
+# Created at 2019-11-11T11:34:34.773
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-11T11:34:34.774
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-11T11:34:34.775
+Unexpected IOException with stream: .
+
+# Created at 2019-11-11T11:34:34.776
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-11T11:34:34.777
+Unexpected IOException with stream: 4
+
+# Created at 2019-11-11T11:34:34.778
+Unexpected IOException with stream: .
+
+# Created at 2019-11-11T11:34:34.780
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-11T11:34:34.781
+Unexpected IOException with stream: .
+
+# Created at 2019-11-11T11:34:34.782
+Unexpected IOException with stream: 0
+
+# Created at 2019-11-11T11:34:34.783
+Unexpected IOException with stream: 
+
+# Created at 2019-11-11T11:34:34.784
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-11T11:34:34.786
+Unexpected IOException with stream: L
+
+# Created at 2019-11-11T11:34:34.787
+Unexpected IOException with stream: i
+
+# Created at 2019-11-11T11:34:34.788
+Unexpected IOException with stream: s
+
+# Created at 2019-11-11T11:34:34.826
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.828
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.829
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.830
+Unexpected IOException with stream: i
+
+# Created at 2019-11-11T11:34:34.831
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.833
+Unexpected IOException with stream: g
+
+# Created at 2019-11-11T11:34:34.834
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.836
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.837
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.838
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.840
+Unexpected IOException with stream: p
+
+# Created at 2019-11-11T11:34:34.841
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.842
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.843
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.844
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.846
+Unexpected IOException with stream: 1
+
+# Created at 2019-11-11T11:34:34.847
+Unexpected IOException with stream: 3
+
+# Created at 2019-11-11T11:34:34.848
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-11T11:34:34.849
+Unexpected IOException with stream: 8
+
+# Created at 2019-11-11T11:34:34.850
+Unexpected IOException with stream: 7
+
+# Created at 2019-11-11T11:34:34.851
+Unexpected IOException with stream: 
+
+# Created at 2019-11-11T11:34:34.852
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-11T11:34:34.853
+Unexpected IOException with stream: O
+
+# Created at 2019-11-11T11:34:34.854
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.855
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.856
+Unexpected IOException with stream: y
+
+# Created at 2019-11-11T11:34:34.857
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.858
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.859
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.860
+Unexpected IOException with stream: c
+
+# Created at 2019-11-11T11:34:34.861
+Unexpected IOException with stream: a
+
+# Created at 2019-11-11T11:34:34.885
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.889
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.892
+Unexpected IOException with stream: c
+
+# Created at 2019-11-11T11:34:34.895
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.896
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.896
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.897
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.898
+Unexpected IOException with stream: c
+
+# Created at 2019-11-11T11:34:34.899
+Unexpected IOException with stream: t
+
+# Created at 2019-11-11T11:34:34.900
+Unexpected IOException with stream: i
+
+# Created at 2019-11-11T11:34:34.901
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.901
+Unexpected IOException with stream: n
+
+# Created at 2019-11-11T11:34:34.902
+Unexpected IOException with stream: s
+
+# Created at 2019-11-11T11:34:34.903
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.903
+Unexpected IOException with stream: a
+
+# Created at 2019-11-11T11:34:34.904
+Unexpected IOException with stream: r
+
+# Created at 2019-11-11T11:34:34.906
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.907
+Unexpected IOException with stream:  
+
+# Created at 2019-11-11T11:34:34.908
+Unexpected IOException with stream: a
+
+# Created at 2019-11-11T11:34:34.908
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.909
+Unexpected IOException with stream: l
+
+# Created at 2019-11-11T11:34:34.910
+Unexpected IOException with stream: o
+
+# Created at 2019-11-11T11:34:34.911
+Unexpected IOException with stream: w
+
+# Created at 2019-11-11T11:34:34.911
+Unexpected IOException with stream: e
+
+# Created at 2019-11-11T11:34:34.912
+Unexpected IOException with stream: d
+
+# Created at 2019-11-11T11:34:34.913
+Unexpected IOException with stream: 
+
+# Created at 2019-11-11T11:34:34.913
+Unexpected IOException with stream: 
+
+
+# Created at 2019-11-11T11:34:40.801
+Unexpected IOException with stream: Nov 11, 2019 11:34:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-11-11T11:34:40.805
+Unexpected IOException with stream: 11-11-2019 11:34:40 TestSuiteBase.java INFO  [main] Testbase files 64 - INTERNET EXPLORER DriverInitiated
+
+
+# Created at 2019-11-11T11:34:42.328
+Unexpected IOException with stream: 11-11-2019 11:34:42 Log4j.java INFO  [main] reports.Log4j 26 - URL opened
+
+
+# Created at 2019-11-11T11:34:42.385
+Unexpected IOException with stream: 11-11-2019 11:34:42 Log4j.java INFO  [main] reports.Log4j 26 - Browser Maximized
+
+
+# Created at 2019-11-11T11:34:42.474
+Unexpected IOException with stream: 11-11-2019 11:34:42 Log4j.java INFO  [main] reports.Log4j 26 - Got title from URL
+
+
+# Created at 2019-11-11T11:34:42.475
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 40 - Getting Value from an testdata
+
+
+# Created at 2019-11-11T11:34:42.492
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 42 - The value is: The Ninja Store
+
+
+# Created at 2019-11-11T11:34:42.494
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 48 - Assertion Starts
+
+
+# Created at 2019-11-11T11:34:42.499
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 50 - Assertion ends
+
+
+# Created at 2019-11-11T11:34:42.502
+Unexpected IOException: 5,1,com.atmecs.testscripts.TutorialsNinjaHomePage,search_product(com.atmecs.testscripts.TutorialsNinjaHomePage),com.atmecs.testscripts.TutorialsNinjaHomePage,null,null
+
+
+# Created at 2019-11-11T11:34:42.503
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 40 - Getting Value from an testdata
+
+
+# Created at 2019-11-11T11:34:42.506
+Unexpected IOException with stream: 11-11-2019 11:34:42 AssertionAndValidationManager.java INFO  [main] Config files 42 - The value is: Iphone
+
+
+# Created at 2019-11-11T11:34:42.507
+Unexpected IOException with stream: 11-11-2019 11:34:42 Log4j.java INFO  [main] reports.Log4j 26 - Entering text into text box
+
+
+# Created at 2019-11-11T11:34:43.487
+Unexpected IOException with stream: 11-11-2019 11:34:43 Log4j.java INFO  [main] reports.Log4j 26 - Iphone is entered
+
+
+# Created at 2019-11-11T11:34:43.490
+Unexpected IOException with stream: 11-11-2019 11:34:43 Log4j.java INFO  [main] reports.Log4j 26 - Click is progressed
+
+
+# Created at 2019-11-11T11:34:45.406
+Unexpected IOException with stream: 11-11-2019 11:34:45 Log4j.java INFO  [main] reports.Log4j 26 - click is done
+
+
+# Created at 2019-11-11T11:34:45.407
+Unexpected IOException with stream: 11-11-2019 11:34:45 Log4j.java INFO  [main] reports.Log4j 26 - Scrolls performed
+
+
+# Created at 2019-11-11T11:34:45.475
+Unexpected IOException: 8,1,com.atmecs.testscripts.TutorialsNinjaHomePage,search_product(com.atmecs.testscripts.TutorialsNinjaHomePage),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae,null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae,TutorialsNinjaHomePage.search_product:38 \00BB NoSuchWindow Unable to get browser\000A...,org.openqa.selenium.NoSuchWindowException: \000AUnable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae\000A\0009at com.atmecs.testscripts.TutorialsNinjaHomePage.search_product(TutorialsNinjaHomePage.java:38)\000A
+
+
+# Created at 2019-11-11T11:34:45.507
+Unexpected IOException: 8,1,com.atmecs.testscripts.TutorialsNinjaHomePage,browserQuit(com.atmecs.testscripts.TutorialsNinjaHomePage),null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae,null,Unable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae,TutorialsNinjaHomePage>TestSuiteBase.browserQuit:77 \00BB NoSuchWindow Unable to g...,org.openqa.selenium.NoSuchWindowException: \000AUnable to get browser\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'ATMECSINLT-084'\002C ip: '55.55.52.136'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 11\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: true\002C ignoreZoomSetting: false\002C initialBrowserUrl: \002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}}\000ASession ID: bc45e4c6-cf63-4b6d-a781-cc0fb24776ae\000A
+
+
+# Created at 2019-11-11T11:34:45.986
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
