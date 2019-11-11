@@ -45,7 +45,7 @@ public class TutorialsNinjaHomePage extends TestSuiteBase {
 
 		utils.click(driver, propertyreader.getLocatorValue("loc.addtocart.button"));
 
-		utils.sendkey(driver, propertyreader.getLocatorValue("loc.search.textbox"), Keys.BACK_SPACE);
+		utils.clear(driver, propertyreader.getLocatorValue("loc.search.textbox"));
 
 		base.search_product(driver, assertandvalidate.getdataval("HomePageData", "SearchList", 2));
 

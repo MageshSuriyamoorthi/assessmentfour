@@ -72,15 +72,11 @@ public class TutorialsNinjaHomePageBase {
 			wait.ThreadWait(4000);
 
 			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.overall.price"));
-			System.out.println("a1 " + actual);
 			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 3);
-			System.out.println(expected);
 			assertandvalidate.assertequals(actual, expected);
 
 			actual = utils.getActual(driver, propertyreader.getLocatorValue("loc.product2.cart"));
-			System.out.println("a2" + actual);
 			expected = assertandvalidate.getdataval("HomePageData", "overallprice", 2);
-			System.out.println(expected);
 			assertandvalidate.assertequals(actual, expected);
 
 			utils.click(driver, propertyreader.getLocatorValue("loc.product2.click"));

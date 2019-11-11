@@ -8,8 +8,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import com.atmecs.tutorialsninja.helper.PropertiesFileReader;
 import com.atmecs.tutorialsninja.utils.UtilityFiles;

@@ -2,32 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40337" started-at="2019-11-11T15:45:22 IST" finished-at="2019-11-11T15:46:02 IST">
+  <suite name="Default suite" duration-ms="26040" started-at="2019-11-11T16:13:59 IST" finished-at="2019-11-11T16:14:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40337" started-at="2019-11-11T15:45:22 IST" finished-at="2019-11-11T15:46:02 IST">
-      <class name="com.atmecs.testscripts.TutorialsNinjaHomePage">
-        <test-method status="PASS" signature="browserSelect()[pri:0, instance:com.atmecs.testscripts.TutorialsNinjaHomePage@29647f75]" name="browserSelect" is-config="true" duration-ms="6517" started-at="2019-11-11T15:45:22 IST" finished-at="2019-11-11T15:45:29 IST">
+    <test name="Default test" duration-ms="26040" started-at="2019-11-11T16:13:59 IST" finished-at="2019-11-11T16:14:25 IST">
+      <class name="com.atmecs.testscripts.HotSauce">
+        <test-method status="PASS" signature="browserSelect()[pri:0, instance:com.atmecs.testscripts.HotSauce@2892dae4]" name="browserSelect" is-config="true" duration-ms="6517" started-at="2019-11-11T16:13:59 IST" finished-at="2019-11-11T16:14:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSelect -->
-        <test-method status="PASS" signature="open_Url()[pri:0, instance:com.atmecs.testscripts.TutorialsNinjaHomePage@29647f75]" name="open_Url" is-config="true" duration-ms="1930" started-at="2019-11-11T15:45:29 IST" finished-at="2019-11-11T15:45:30 IST">
+        <test-method status="PASS" signature="open_Url()[pri:0, instance:com.atmecs.testscripts.HotSauce@2892dae4]" name="open_Url" is-config="true" duration-ms="1670" started-at="2019-11-11T16:14:06 IST" finished-at="2019-11-11T16:14:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Url -->
-        <test-method status="PASS" signature="validate_HomePage()[pri:0, instance:com.atmecs.testscripts.TutorialsNinjaHomePage@29647f75]" name="validate_HomePage" is-config="true" duration-ms="51" started-at="2019-11-11T15:45:30 IST" finished-at="2019-11-11T15:45:31 IST">
+        <test-method status="PASS" signature="home_page()[pri:0, instance:com.atmecs.testscripts.HotSauce@2892dae4]" name="home_page" duration-ms="17765" started-at="2019-11-11T16:14:08 IST" finished-at="2019-11-11T16:14:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_HomePage -->
-        <test-method status="PASS" signature="search_product()[pri:0, instance:com.atmecs.testscripts.TutorialsNinjaHomePage@29647f75]" name="search_product" duration-ms="31771" started-at="2019-11-11T15:45:31 IST" finished-at="2019-11-11T15:46:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_product -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.atmecs.testscripts.TutorialsNinjaHomePage@29647f75]" name="browserQuit" is-config="true" duration-ms="1" started-at="2019-11-11T15:46:02 IST" finished-at="2019-11-11T15:46:02 IST">
+        </test-method> <!-- home_page -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.atmecs.testscripts.HotSauce@2892dae4]" name="browserQuit" is-config="true" duration-ms="33" started-at="2019-11-11T16:14:25 IST" finished-at="2019-11-11T16:14:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-      </class> <!-- com.atmecs.testscripts.TutorialsNinjaHomePage -->
+      </class> <!-- com.atmecs.testscripts.HotSauce -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

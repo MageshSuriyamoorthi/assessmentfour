@@ -99,14 +99,20 @@ public class UtilityFiles {
 		return value;
 	}
 //method to pass any keys in script
-	public WebElement sendkey(WebDriver driver, String locator, Keys keys ) {
+	public WebElement clear(WebDriver driver, String locator) {
 		log.info("Entering text into text box");
 		WebElement value = findelement(driver, locator);
 		value.clear();
+		return value;
+	}
+	public WebElement sendkey(WebDriver driver, String locator, Keys keys ) {
+		log.info("Entering text into text box");
+		WebElement value = findelement(driver, locator);
 		value.sendKeys(keys);
 		log.info(keys + " is entered");
 		return value;
 	}
+
 //method to pass simple text in a script
 	public WebElement sendkeys(WebDriver driver, String locator, String text) {
 		log.info("Entering text into text box");
